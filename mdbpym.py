@@ -1,5 +1,4 @@
 
-
 from datetime import datetime, timedelta
 import petl as etl
 import os
@@ -7,7 +6,7 @@ import pandas as pd
 import mysql.connector
 import pymysql
 print("trying to use pymysql")
-connection1=pymysql.connect(
+connection 1 =pymysql.connect(
     host='203.154.28.234',
     user='sarayuth',
     passwd='3qZGA1QxqNp4PVpR',
