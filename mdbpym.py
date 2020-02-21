@@ -7,7 +7,7 @@ import os
 import pandas as pd
 import mysql.connector
 import pymysql
-
+print("trying to use pymysql")
 connection1=pymysql.connect(
     host='203.154.28.234',
     user='sarayuth',
