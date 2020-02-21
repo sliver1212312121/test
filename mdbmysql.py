@@ -14,12 +14,12 @@ connection1 = mysql.connector.connect(
     db="doae_production_2018",
     port='3306'
 )
-connection1.cursor()
-
-SQL_Query = pd.read_sql_query(
-    '''SELECT * FROM form_plant_1 limit 10''', connection1)
-
-df = pd.DataFrame(SQL_Query)
-
-master = df
-master
+print(connection1)
+#
+# SQL_Query = pd.read_sql_query(
+#     '''SELECT * FROM form_plant_1 limit 10''', connection1)
+#
+# df = pd.DataFrame(SQL_Query)
+#
+# master = df
+# master
