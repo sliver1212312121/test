@@ -7,14 +7,13 @@ import os
 import pandas as pd
 import mysql.connector
 print("hello")
-connection1 = mysql.connector.connect(
-    host="203.154.28.231",
-    user="sarayuth",
-    passwd="3qZGA1QxqNp4PVpR",
-    db="doae_production_2018",
-    port='3306'
-)
-print(connection1)
+
+db = mysql.connector.connect(
+  host="203.154.28.234",
+  user="sarayuth",
+  passwd="3qZGA1QxqNp4PVpR",
+  db="doae_production_2018")
+print(db)
 #
 # SQL_Query = pd.read_sql_query(
 #     '''SELECT * FROM form_plant_1 limit 10''', connection1)
