@@ -6,7 +6,7 @@ import psycopg2
 import os
 import pandas as pd
 import mysql.connector
-
+print("hello")
 connection1 = mysql.connector.connect(
     host="",
     user="sarayuth",
