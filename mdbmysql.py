@@ -8,7 +8,7 @@ import pandas as pd
 import mysql.connector
 print("hello")
 connection1 = mysql.connector.connect(
-    host="",
+    host="203.154.28.231",
     user="sarayuth",
     passwd="3qZGA1QxqNp4PVpR",
     db="doae_production_2018",
