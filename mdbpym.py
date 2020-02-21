@@ -12,7 +12,8 @@ connection1=pymysql.connect(
     host='203.154.28.234',
     user='sarayuth',
     passwd='3qZGA1QxqNp4PVpR',
-    db='doae_production_2018'
+    db='doae_production_2018',
+    port='3306'
 )
 print(connection1)
 # SQL_Query = pd.read_sql_query(
