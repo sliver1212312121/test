@@ -1,10 +1,10 @@
 
 
-from datetime import datetime, timedelta
-import petl as etl
-import psycopg2
-import os
-import pandas as pd
+# from datetime import datetime, timedelta
+# import petl as etl
+# import psycopg2
+# import os
+# import pandas as pd
 import mysql.connector
 
 # import cx_Oracle
