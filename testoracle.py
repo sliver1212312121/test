@@ -18,7 +18,7 @@ connection =cx_Oracle.connect('SPATIAL', 'LaItApS', "10.3.33.6:3333/doaedb",enco
 connection.cursor()
 
 SQL_Query = pd.read_sql_query(
- '''select * from V_KS01 fetch first 1 row only''', connection)
+ '''select * from V_KS01 fetch first 10 row only''', connection)
 
 df = pd.DataFrame(SQL_Query)
 
