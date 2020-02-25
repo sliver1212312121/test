@@ -23,7 +23,7 @@ SQL_Query = pd.read_sql_query(
 df = pd.DataFrame(SQL_Query)
 
 master = df
-master
+print(master)
 # connection1 = mysql.connector.connect(
 #     host = "203.154.28.234",
 #     user = "sarayuth",
